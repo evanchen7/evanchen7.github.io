@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: evanchen7/evanchen7.github.io
   branch: master
-
+  site_domain: sleepy-dijkstra-b8c31a.netlify.com
+  
 media_folder: "static/media"
 public_folder: "/media"
 
