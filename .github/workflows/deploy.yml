@@ -3,7 +3,7 @@ name: 'deploy github pages' # Name of your workflow
 on:
   push:
     branches:
-      - gatsby-dev # The trigger of the this workflow
+      - master # The trigger of the this workflow
 
 jobs:
   build:
