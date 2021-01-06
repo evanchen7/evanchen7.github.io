@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: evanchen7/evanchen7.github.io
   branch: master
 
 media_folder: "static/media"

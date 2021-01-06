@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://evanchen7.github.com',
   pathPrefix: '/',
   title: 'Blog by Evan Chen',
-  subtitle: 'Aspiring Producer',
+  subtitle: 'Random Musings',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Evan Chen',
     photo: '/photo.jpg',
-    bio: 'Aspiring Producer',
+    bio: 'Random Musings',
     contacts: {
       email: '',
       facebook: '#',
