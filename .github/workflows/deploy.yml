@@ -1,6 +1,10 @@
 name: github pages
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - gh-pages
 
 jobs:
   deploy:
@@ -34,4 +38,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          
