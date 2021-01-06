@@ -1,17 +1,12 @@
-name: Gatsby Publish
-
-on:
-  push:
-    branches:
-      - master
-
+on: push
+name: Build Gatsby Site
 jobs:
   build:
+    name: Build Gatsby Site
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
-        with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-branch: master
-          gatsby-args: --verbose
+    - uses: actions/checkout@master
+    - name: Build Gatsby Site
+      uses: jzweifel/gatsby-cli-github-action@master
+      with:
+        gatsby-arg: build
